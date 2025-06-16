@@ -1,0 +1,24 @@
+# Configuration des attributs Git pour la détection des langages
+# Forcer la détection correcte des langages
+
+# Tous les fichiers PHP sont du PHP, pas du Hack
+*.php linguist-language=PHP
+
+# Fichiers SQL
+*.sql linguist-language=SQL
+
+# Fichiers CSS
+*.css linguist-language=CSS
+
+# Fichiers JavaScript
+*.js linguist-language=JavaScript
+
+# Ignorer certains fichiers dans les statistiques
+database_backup.sql linguist-generated=true
+database.sql linguist-documentation=true
+setup_database.php linguist-generated=true
+
+# Marquer les fichiers de test comme non-critiques
+test_*.php linguist-generated=true
+debug_*.php linguist-generated=true
+simple_test.php linguist-generated=true

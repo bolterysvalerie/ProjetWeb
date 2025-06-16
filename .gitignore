@@ -1,0 +1,57 @@
+# Fichiers de configuration locaux
+config/local.php
+config/database_local.php
+
+# Fichiers temporaires et de debug
+debug_*.php
+test_*.php
+simple_test.php
+diagnostic_*.php
+*_debug.php
+*_test.php
+temp_*.php
+*_backup.php
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Dossiers de cache
+cache/
+tmp/
+temp/
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.production
+
+# Fichiers de sauvegarde et mise à jour
+*.bak
+*.backup
+*_backup.*
+database_backup.sql
+update_*.php
+update_*.sql
+add_*.php
+
+# Uploads (garder le dossier mais pas le contenu)
+uploads/*
+!uploads/.gitkeep
+!uploads/products/.gitkeep
+!uploads/profiles/.gitkeep
+
+# Fichiers de configuration IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Node modules si jamais utilisé
+node_modules/
+package-lock.json
+
+# Composer vendor si jamais utilisé
+vendor/
