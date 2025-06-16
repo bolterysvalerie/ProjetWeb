@@ -1,0 +1,12 @@
+<!-- Placeholder SVG pour les produits sans image -->
+<svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+  <rect width="150" height="150" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+  <text x="75" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">
+    Pas d'image
+  </text>
+  <text x="75" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">
+    disponible
+  </text>
+  <circle cx="75" cy="105" r="12" fill="none" stroke="#6c757d" stroke-width="2"/>
+  <circle cx="75" cy="105" r="4" fill="#6c757d"/>
+</svg>
