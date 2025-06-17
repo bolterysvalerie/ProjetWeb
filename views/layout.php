@@ -136,44 +136,42 @@
                 <div class="col-md-4">
                     <h5><i class="fas fa-store me-2"></i>E-Commerce</h5>
                     <p class="text-muted">Votre boutique en ligne de confiance pour tous vos besoins.</p>
-                </div>
-                <div class="col-md-2">
+                </div>                <div class="col-md-2">
                     <h6>Navigation</h6>
-                    <ul class="list-unstyled text-muted">
-                        <li><a href="index.php" class="text-muted text-decoration-none">Accueil</a></li>
-                        <li><a href="index.php?url=shop" class="text-muted text-decoration-none">Boutique</a></li>
-                        <li><a href="index.php?url=blog" class="text-muted text-decoration-none">Blog</a></li>
+                    <ul class="list-unstyled text-white">
+                        <li><a href="index.php" class="text-white text-decoration-none">Accueil</a></li>
+                        <li><a href="index.php?url=shop" class="text-white text-decoration-none">Boutique</a></li>
+                        <li><a href="index.php?url=blog" class="text-white text-decoration-none">Blog</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2">
                     <h6>Compte</h6>
-                    <ul class="list-unstyled text-muted">
+                    <ul class="list-unstyled text-white">
                         <?php if (isset($_SESSION['user_id'])): ?>
-                        <li><a href="index.php?url=user&action=profile" class="text-muted text-decoration-none">Mon Profil</a></li>
-                        <li><a href="index.php?url=shop&action=orders" class="text-muted text-decoration-none">Mes Commandes</a></li>
+                        <li><a href="index.php?url=user&action=profile" class="text-white text-decoration-none">Mon Profil</a></li>
+                        <li><a href="index.php?url=shop&action=orders" class="text-white text-decoration-none">Mes Commandes</a></li>
                         <?php else: ?>
-                        <li><a href="index.php?url=user&action=login" class="text-muted text-decoration-none">Connexion</a></li>
-                        <li><a href="index.php?url=user&action=register" class="text-muted text-decoration-none">Inscription</a></li>
+                        <li><a href="index.php?url=user&action=login" class="text-white text-decoration-none">Connexion</a></li>
+                        <li><a href="index.php?url=user&action=register" class="text-white text-decoration-none">Inscription</a></li>
                         <?php endif; ?>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <h6>Contact</h6>
-                    <p class="text-muted mb-1"><i class="fas fa-envelope me-2"></i>contact@e-commerce.com</p>
-                    <p class="text-muted mb-1"><i class="fas fa-phone me-2"></i>+33 1 23 45 67 89</p>
+                    <p class="text-white mb-1"><i class="fas fa-envelope me-2"></i>contact@e-commerce.com</p>
+                    <p class="text-white mb-1"><i class="fas fa-phone me-2"></i>+33 1 23 45 67 89</p>
                     <div class="mt-3">
-                        <a href="#" class="text-muted me-3"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="text-muted me-3"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-muted me-3"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="text-muted"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
             <hr class="my-4">
             <div class="row">                <div class="col-md-6">
-                    <p class="text-white mb-0">&copy; <?= date('Y') ?> E-Commerce. Tous droits réservés.</p>
-                </div><div class="col-md-6 text-md-end">
-                    <p class="text-white mb-0">Développé par Adrian et Valérie</p>
+                    <p class="text-white mb-0">&copy; <?= date('Y') ?> E-Commerce. Tous droits réservés.</p>                </div><div class="col-md-6 text-md-end">
+                    <p class="text-white mb-0">Développé par Adrian, Gültekin et Valérie</p>
                 </div>
             </div>
         </div>

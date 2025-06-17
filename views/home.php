@@ -304,33 +304,29 @@
 
 <!-- Call to Action Section -->
 <?php if (!isset($_SESSION['user_id'])): ?>
-<div class="bg-gradient text-white py-5" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-    <div class="container text-center">
-        <h2 class="mb-3">Prêt à commencer ?</h2>
-        <p class="lead mb-4">Rejoignez notre communauté dès aujourd'hui et profitez d'avantages exclusifs !</p>
+<div class="bg-gradient py-5" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">    <div class="container text-center">        <h2 class="mb-3 text-dark">Prêt à commencer ?</h2>
+        <p class="lead mb-4 text-dark">Rejoignez notre communauté dès aujourd'hui et profitez d'avantages exclusifs !</p>
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <div class="row g-3">
-                    <div class="col-md-6">
-                        <div class="feature-box p-3">
+                <div class="row g-3">                    <div class="col-md-6">
+                        <div class="feature-box p-3 text-dark">
                             <i class="fas fa-gift fa-2x mb-2"></i>
                             <h5>Offres exclusives</h5>
                             <p class="small mb-0">Accès à des promotions réservées aux membres</p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="feature-box p-3">
+                        <div class="feature-box p-3 text-dark">
                             <i class="fas fa-heart fa-2x mb-2"></i>
                             <h5>Liste de souhaits</h5>
                             <p class="small mb-0">Sauvegardez vos produits préférés</p>
                         </div>
                     </div>
-                </div>
-                <div class="mt-4">
-                    <a href="index.php?url=user&action=register" class="btn btn-light btn-lg me-3">
+                </div>                <div class="mt-4">
+                    <a href="index.php?url=user&action=register" class="btn btn-primary btn-lg me-3">
                         <i class="fas fa-user-plus me-2"></i>Créer un compte
                     </a>
-                    <a href="index.php?url=shop" class="btn btn-outline-light btn-lg">
+                    <a href="index.php?url=shop" class="btn btn-primary btn-lg">
                         <i class="fas fa-shopping-bag me-2"></i>Explorer sans compte
                     </a>
                 </div>
