@@ -129,7 +129,7 @@ Les styles sont organisés par composants dans `assets/css/style.css`
 
 ## 👨‍💻 Développeurs
 
-Développé par **Adrian et Valérie**
+Développé par **Adrian, Gültekin et Valérie**
 
 ## 📄 Licence
 
